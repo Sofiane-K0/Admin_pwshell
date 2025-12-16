@@ -1,0 +1,6 @@
+﻿#TYPE Selected.Microsoft.PowerShell.Commands.LocalUser
+"Name";"PasswordLastSet";"Description"
+"Administrateur";"21/11/2025 17:55:15";"Compte d’utilisateur d’administration"
+"DefaultAccount";;"Compte utilisateur géré par le système."
+"Invité";;"Compte d’utilisateur invité"
+"WDAGUtilityAccount";"21/11/2025 17:53:25";"Compte d’utilisateur géré et utilisé par le système pour les scénarios Windows Defender Application Guard."

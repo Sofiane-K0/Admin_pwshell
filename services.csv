@@ -1,0 +1,6 @@
+﻿#TYPE Selected.System.ServiceProcess.ServiceController
+"Name";"Status";"StartType"
+"BFE";"Running";"Automatic"
+"BITS";"Stopped";"Manual"
+"BrokerInfrastructure";"Running";"Automatic"
+"bthserv";"Stopped";"Manual"
