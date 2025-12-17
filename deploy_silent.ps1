@@ -3,8 +3,6 @@ $vm
 
 Copy-Item -Path 'C:\notepad++.exe' -ToSession $vm -Destination 'C:\Windows\Temp'
 Invoke-Command -Session $vm -ScriptBlock {
-    # Get-Volume | Select-Object DriveLetter, HealthStatus, @{Name = 'Size'; Expression = { $_.Size / 1Gb } }
-
     cmd.exe /c "C:\Windows\Temp\notepad++.exe /S" 
     Remove-Item -Path 'C:\Windows\Temp\notepad++.exe'
 }
