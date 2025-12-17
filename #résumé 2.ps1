@@ -16,3 +16,7 @@
 #Script powershell 
 #DotSourcing / execution en interactif ou non
 # -> Interactif avec Read-host
+# -> Non interactif avec le bloc param
+# => Pas de limite sur le nombre de paramètre
+# => Les paramètres peuvent être parametrés ([int]/[string]/[Parameter(Mandatory=$true, Position=0)])
+# 
